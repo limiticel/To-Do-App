@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1> To-Do-App</h1>
+    <section>
+
+        <div class="caixageral">
+            <div id='formulario' class="formulario"><h1>Formulario</h1>
+                <p>Tarefa:   <input id="nomeTarefa" type="text" placeholder="Insira o titulo da tarefa"/></p>
+                <p>Descrição:<input id="descricao"type="text" placeholder="Descrição da tarefa"/></p>
+                <p>Data prevista: <input id="dataPrev"type="date" placeholder="Data para conclusão"/></p>
+                <button class="botaoP" onclick=formulario()>Adicionar</button> 
+                <button class='botaoP'  onclick=deletarcheckbox()>Excluir</button>
+            </div>
+            <div class="cx_itens" id="caixa_de_itens">
+                <h1>lista de tarefas</h1>
+            
+               <div id="list" class="listadetarefas" ></div>
+            </div>
+        </div>
+    </section>
+    <script src="scripts.js"></script>
+<body>
+</html>
